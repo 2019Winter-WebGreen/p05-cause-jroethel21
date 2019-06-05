@@ -1,0 +1,49 @@
+/*
+*Jaclyn Roethel
+*May 19th, 2019
+*Best Friends Animal Society
+*/
+
+/* The universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body attributes here */
+body {font-family: monospace; margin: 80px; background-color: peachpuff; color: navy;}
+
+header{font-family: cursive; color: navy; text-align: center; font-size: 25pt; margin: 2em; padding: 1em; border-bottom: 2px solid red;}
+/* effects the title */
+
+h2 {font-family: cursive; font-size: 20pt;}
+/* change h2 font and font's size */
+
+main{font-size: 15pt; border-bottom: 2px solid red;}
+/* main */
+
+#image1.jpg{width:150px; height: 150px; float: left; margin: 15px; border: 3px solid darkblue;}
+/*image 1 */
+
+p{margin: 1em;}
+/* all paragraphs */
+
+#image2.jpg {width:150px; height: 150px; float: left; margin: 1em; border: 3px solid darkblue; display: inline-block; text-align: center;}
+/* image 2 */
+
+#about{margin: 1em;}
+/*"about" heading  */
+
+#image3.jpg{float: right; width:100%px; height:100%; border: 3px solid darkblue; margin: 1em;}
+/* image 3 */
+
+footer{color: palevioletred;}
+/* color of words*/
+
+a:link{color: palevioletred;}
+/* links color */
+
+#bottom{margin-left: 1em;}
+/* "reproduced for educational purposes only" */
+
+ul, li {list-style-position: inside;}
+/* links */
